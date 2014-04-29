@@ -14,8 +14,8 @@ Escenarios:
 
 Planificación de las pantallas que debe hacer cada uno:
 
-- Borja: resumen pedido, método de pago y pedido realizado
-- Patter: perfil, modificar perfil, bienvenido y registrarse
-- Judas Iscariote: carta y título categoría
+- [Borja](https://github.com/jlc22 "Borja"): resumen pedido, método de pago y pedido realizado
+- [Patter](https://github.com/pablovargan "Patter"): perfil, modificar perfil, bienvenido y registrarse
+- [Judas Iscariote](https://github.com/panfri787 "Judas Iscariote"): carta y título categoría
 
 Referencia del tema de bootstrap: [Celurean](http://bootswatch.com/cerulean/ "Cerulean")
