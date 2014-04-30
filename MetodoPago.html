@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.css">
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Metodo de Pago</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="page-header"></div>
+    <form class="form-horizontal">
+        <fieldset>
+            <legend>Pago</legend>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">Elige el metodo de pago</label>
+                <div class="col-lg-10">
+                    <div class="radio">
+                        <label>
+                            <input name="optionsRadios" id="optionsRadios1" value="option1" checked="" type="radio">
+                            Tarjeta x
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input name="optionsRadios" id="optionsRadios2" value="option2" type="radio">
+                            Tarjeta y
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button class="btn btn-default">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" class="input-Tarjeta" placeholder="Tarjeta">
+            </div>
+            <div class="form-group">
+                <input type="text" class="input-CSV" placeholder="CSV">
+            </div>
+            <div class="form-group">
+                <input type="text" class="input-Caducidad" placeholder="Caducidad">
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">Elige el metodo de pago</label>
+                <div class="col-lg-10">
+                    <div class="radio">
+                        <label>
+                            <input name="optionsRadios" id="optionsRadios11" value="option1" checked="" type="radio">
+                            Paypal
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input name="optionsRadios" id="optionsRadios22" value="option2" type="radio">
+                            Efectivo
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Pagar</button>
+        </fieldset>
+    </form>
+</div>
+
+
+</body>
+</html>

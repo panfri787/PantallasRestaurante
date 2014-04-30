@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.css">
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Resumen Pedido</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="page-header"></div>
+
+    <ul class="pager">
+        <li class="previous disabled"><a href="#">← Volver</a></li>
+    </ul>
+
+    <table class="table table-striped table-hover ">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Subtotal</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Pizza Margarita</td>
+            <td>
+                <button type="button" class="btn btn-default">-</button>
+                2
+                <button type="button" class="btn btn-default">+</button>
+
+            </td>
+            <td>15$</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Pizza Cuatro Estaciones</td>
+            <td><button type="button" class="btn btn-default">-</button>
+                1
+                <button type="button" class="btn btn-default">+</button>
+            </td>
+            <td>8$</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Hamburguesa con queso</td>
+            <td>
+                <button type="button" class="btn btn-default">-</button>
+                2
+                <button type="button" class="btn btn-default">+</button>
+            </td>
+            <td>10$</td>
+        </tr>
+       </tbody>
+    </table>
+
+  <h3>Total: 33$</h3>
+  </br>
+
+    <div class="form-group">
+        <label class="col-lg-2 control-label">Opciones de pedido</label>
+        <div class="col-lg-10">
+            <div class="radio">
+                <label>
+                    <input name="optionsRadios" id="optionsRadios1" value="option1" checked="" type="radio">
+                    Recoger en restaurante
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input name="optionsRadios" id="optionsRadios2" value="option2" type="radio">
+                    Enviar a domicilio
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-primary btn-lg">Realizar Pedido</button>
+
+</div>
+</div>
+
+</body>
+</html>
